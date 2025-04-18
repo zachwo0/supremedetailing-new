@@ -1,6 +1,7 @@
 ---
 import lightThemeLogo from '../assets/dark_logo.png';
 import DarkThemeLogo from '../assets/darkThemeLogo.png';
+import Navigation from './Navigation.astro';
 ---
 
 <header>
@@ -10,14 +11,7 @@ import DarkThemeLogo from '../assets/darkThemeLogo.png';
 		<img src={DarkThemeLogo.src} alt="Supreme Detailing Logo" />
 	</picture>
 <h1>Supreme Mobile Detailing</h1>
-	<nav>
-<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/contact">Contact</a></li>
-	<li><a href="/services">Services</a></li>
-</ul>
-	</nav>	
+	<Navigation />
 </header>
 
 <style>
